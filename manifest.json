@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Bulk Delete & Search",
+  "version": "1.0",
+  "description": "Bulk delete and full-text search your ChatGPT history via a fast local dashboard.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Open ChatGPT History Dashboard"
+  }
+}
