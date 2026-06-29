@@ -11,7 +11,7 @@ With this extension, you can easily filter, locate, and bulk-delete thousands of
 - **Advanced Filtering & Sorting:** Instantly filter out "Projects" and "Folders" so you only delete one-off chats. Sort by Created At, Last Updated, Title, or Location.
 - **Local First:** All your chat metadata is synced and cached locally in your browser's IndexedDB. Your private data never leaves your browser.
 - **Sync Limits & DB Management:** Define exactly how deep into your history you want to sync, and instantly wipe the local database clean whenever needed.
-- **Native Integration:** Injects a simple "Bulk Manage" button directly into the ChatGPT sidebar.
+- **Native Integration:** Injects a "Bulk Manage" button directly into the ChatGPT interface. The button is **fully draggable**—you can move it anywhere on your screen and it will remember its position!
 
 ## Installation
 
