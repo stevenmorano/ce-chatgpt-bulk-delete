@@ -1,14 +1,19 @@
 {
   "manifest_version": 3,
-  "name": "ChatGPT Bulk Delete & Search",
+  "name": "Steve's Tools: ChatGPT Bulk Delete",
   "version": "1.0",
-  "description": "Bulk delete and full-text search your ChatGPT history via a fast local dashboard.",
+  "description": "A fast, local-first dashboard to search and bulk-delete your ChatGPT history.",
   "permissions": [
     "storage"
   ],
   "host_permissions": [
     "https://chatgpt.com/*"
   ],
+  "icons": {
+    "16": "icon-128.png",
+    "48": "icon-128.png",
+    "128": "icon-128.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
